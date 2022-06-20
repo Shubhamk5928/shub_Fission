@@ -1,0 +1,195 @@
+h1{
+  margin:0px;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #476B8F;
+}
+body{
+   margin: 0px;
+   text-align: center;
+   color: #40514E;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 43px;
+  font-size: 2.5rem;
+  color: #476B8F;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-family: 'Charis SIL', serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  line-height: 2;
+}
+.intro{
+  width: 30%;
+  text-align: center;
+  margin: auto;
+}
+.pro{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+}
+.upperbox{
+  background-color: #DFF6FF;
+  margin: 0px;
+  padding: 0px;
+  height: 735px;
+  display: block;
+}
+.mountain{
+  width: 100%;
+  /* object-fit: 100px; */
+}
+.uppercloud{
+  position: relative;
+  top: 20px;
+  left: 212px;
+}
+hr{
+     border-style: dotted none none;
+      border-top-color: #2E8BC0;
+      width: 4%;
+      border-width: thick;
+      margin:100px auto 100px auto;
+}
+.lowercloud{
+  position: relative;
+  bottom: 544px;
+  right: 289px;
+}
+.middle-container{
+  display: inline;
+  position: relative;
+  top: 108px;
+}
+.skill-row{
+  width: 50%;
+  text-align: left;
+  margin:100px auto 100px auto;
+  line-height: 2;
+}
+.coding-image{
+  width: 27%;
+ float: left;
+ margin-right: 76px;
+ position: relative;
+ bottom: 82px;
+}
+.cooking-image{
+  width: 25%;
+  float: right;
+  margin-left: 76px;
+  position: relative;
+  bottom: 82px;
+}
+.cooking-title{
+  position: relative;
+  right: 278px;
+}
+.btn{
+background:    #476B8F;
+border:        1px solid #556699;
+border-radius: 11px;
+box-shadow:    0 1px #444444;
+padding:       20px 45px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 20px/1 "Open Sans", sans-serif;
+text-align:    center;
+text-shadow:   1px 1px #674ea7;
+margin: 50px auto 50px auto;
+text-decoration: none;
+}
+.btn:hover{
+  background-color: #2E8BC0;
+  text-decoration: underline;
+  border:10px;
+}
+.fotter{
+background-color: #2E8BC0;
+height: 100px;
+padding: 180px auto 50px auto;
+}
+a{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  position: relative;
+  top: 19px;
+  margin: 15px 27px;
+}
+a:hover{
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #674ea7
+  background-color: white;
+}
+.copywrite{
+  margin-top: 50px;
+  font-size: 0.75rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+/*
+.middlebox{
+  height:200px;
+  width: 200px;
+  margin-left: 220px;
+  background-color: red;
+  border: solid 20px;
+}
+.bottombox{
+  height: 200px;
+  width: 200px;
+  margin-left:460px;
+  background-color:blue;
+  border: solid 10px;
+}
+ */
+/*-----------displaypropertuies-------
+inline - only cover throught the content , we changes their width
+block - covers til screen , cannot change width
+inline block - covers til content , we can change width
+nono - not display the content inside the box , its leaves therir space like goole form quiz form */
+
+
+/*------positioning---------------*/
+/* 1. static - by default
+2. relative - it changing the position of element according to their intial position
+3. absolute - it changes position according to the parent element borders */
+
+/* absolute positioning - challenge */
+/* body{
+  margin:0px;
+}
+.upperbox{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: #DFF6FF;
+}
+.middlebox{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  background-color: red;
+}
+.bottombox{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left:200px;
+  top: 200px;
+  background-color: blue;
+} */
